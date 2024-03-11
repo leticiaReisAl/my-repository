@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="StyleCadastro.css">
+    <script src="https://kit.fontawesome.com/bbb34102a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="content cadastro">
+
+            <div class="first-column">
+
+                <h2 class="title title-primary">Olá Aluno!</h2>
+                <p class="description description-primary">Já faz parte do nosso time, </p>
+                <p class="description description-primary">acesse sua conta por aqui.</p>
+
+                <button id="signin" class="btn btn-primary">sign in</button>
+            </div>
+
+            <div class="second-column">
+                <h2 class="title title-second">Cadastrar</h2>
+
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fa-brands fa-facebook-f"></i></i>
+                            </li>
+                        </a>
+
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </li>
+                        </a>
+
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div><!--Social Media-->
+
+                <form class="form">
+                    <label class="label" for="">Nome completo:</label>
+                    <input type="text">
+
+                    <label class="label" for="">Curso:</label>
+                    <select name="Curso">
+                        <option>Engenharia de Software - 84.000hs</option>
+                        <option>Psicologia - 62.000hs</option>
+                        <option>Administração - 96.000hs</option>
+                    </select><br>
+
+
+                    <label class="label" for="">Horário:</label>
+                    de: <input type="time" id="horario" name="horario" required> até: <input type="time" id="horario"
+                        name="horario" required>
+
+                    <button class="btn btn-third">Inserir</button>
+                    <button class="btn btn-third">Consultar</button>
+                    <button class="btn btn-third">Alterar</button>
+                    <button class="btn btn-third">Excluir</button>
+
+                </form>
+
+            </div><!--Second Column-->
+
+        </div><!--First Content-->
+
+    </div>
+</body>
+
+</html>
